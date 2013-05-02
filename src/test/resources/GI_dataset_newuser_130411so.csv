@@ -1,0 +1,4 @@
+MITGLIEDNR,ANREDE,TITEL,VORNAME,NAME,FIRMA,STRASSE,HAUSNUMMER,PLZ,ORT,LAND,EMAIL,USERNAME,PASSWORT,specialtyCode,acceptAgb,Userstatus
+58611,Herr,,Christopher,Schiller,Gesellschaft für Informatik,Ahrstraße,45,53175,Bonn,Deutschland,christopher.schiller@gi.de,christopher.schiller@gi.de,58611,SP_NL_GI_INFORMATIK,true,newUser
+49711,Herr,,Martin,Gneupel,Gesellschaft für Informatik,Ahrstraße,45,53175,Bonn,Deutschland,martin.gneupel@springer.com,martin.gneupel@springer.com,49711,SP_NL_GI_INFORMATIK,true,newUser
+38965,Frau,Dr.,Maria,Mustermann,Gesellschaft für Informatik,Ahrstraße,45,53175,Bonn,Deutschland,mm@mustermail.com,mm@mustermail.com,38965,SP_NL_GI_INFORMATIK,true,newUser
