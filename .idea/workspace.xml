@@ -7,7 +7,7 @@
     <ignored path="gi-user-data-import.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="6cac855b-a797-4b6e-aa7d-8685f435ec89" time="1367331770523" ignored="false" />
-    <file path="/Dummy.txt" changelist="6cac855b-a797-4b6e-aa7d-8685f435ec89" time="1367484368833" ignored="false" />
+    <file path="/Dummy.txt" changelist="6cac855b-a797-4b6e-aa7d-8685f435ec89" time="1367484565949" ignored="false" />
     <file path="/.gitorious" changelist="6cac855b-a797-4b6e-aa7d-8685f435ec89" time="1367484347989" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +15,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="true" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -126,7 +126,7 @@
       <file leaf-file-name=".gitorious" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitorious">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="2" selection-start="357" selection-end="357" vertical-scroll-proportion="0.9465241">
+            <state line="37" column="2" selection-start="357" selection-end="357" vertical-scroll-proportion="0.98930484">
               <folding />
             </state>
           </provider>
@@ -162,6 +162,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
     <option name="myDateState">
       <MyDateState />
     </option>
@@ -521,14 +522,18 @@
       <created>1367484372529</created>
       <updated>1367484372529</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="IDE files deleted">
+      <created>1367484568748</created>
+      <updated>1367484568748</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1279" y="-4" width="1682" height="1055" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1878825" sideWeight="0.6703418" order="1" side_tool="false" content_ui="tabs" />
@@ -536,7 +541,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -729,7 +734,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitorious">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="2" selection-start="357" selection-end="357" vertical-scroll-proportion="0.9465241">
+        <state line="37" column="2" selection-start="357" selection-end="357" vertical-scroll-proportion="0.98930484">
           <folding />
         </state>
       </provider>
