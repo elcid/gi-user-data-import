@@ -1,4 +1,4 @@
-package de.sprigerprofessional.gi.scheduling.test;
+package de.springerprofessional.gi.scheduling;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
