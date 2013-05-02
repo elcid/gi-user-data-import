@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cac855b-a797-4b6e-aa7d-8685f435ec89" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitorious" afterPath="$PROJECT_DIR$/.gitorious" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="gi-user-data-import.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="6cac855b-a797-4b6e-aa7d-8685f435ec89" time="1367331770523" ignored="false" />
-    <file path="/Dummy.txt" changelist="6cac855b-a797-4b6e-aa7d-8685f435ec89" time="1367483675894" ignored="false" />
+    <file path="/Dummy.txt" changelist="6cac855b-a797-4b6e-aa7d-8685f435ec89" time="1367484368833" ignored="false" />
     <file path="/.gitorious" changelist="6cac855b-a797-4b6e-aa7d-8685f435ec89" time="1367484347989" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -518,7 +517,11 @@
       <created>1367483693477</created>
       <updated>1367483693477</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="IDE files deleted">
+      <created>1367484372529</created>
+      <updated>1367484372529</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
