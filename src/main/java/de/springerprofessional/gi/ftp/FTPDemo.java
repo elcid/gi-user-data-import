@@ -1,7 +1,9 @@
 package de.springerprofessional.gi.ftp;
 
-import org.apache.commons.net.ftp.FTPClient;
+import org.apache.commons.net.ftp.FTP;
 import org.apache.commons.net.ftp.FTPFile;
+import org.apache.commons.net.ftp.FTPSClient;
+import org.apache.commons.net.util.TrustManagerUtils;
 
 import java.io.IOException;
 import java.net.InetAddress;
@@ -14,16 +16,20 @@ import java.util.Comparator;
 public class FTPDemo {
 
     private static InetAddress host;
-    private static String user;
-    private static String pwd;
+    private static String user = "sfp";
+    private static int port = 22;
+    private static String pwd = "Ahc6eineim";
 
     public static void main(String[] args)
     {
-        FTPClient client = new FTPClient();
-        try
-        {
-            client.connect(host);
+        FTPSClient client = new FTPSClient("SSL");
+        client.setTrustManager(TrustManagerUtils.getAcceptAllTrustManager());
+
+        try {
+            host = InetAddress.getByName("gi.de");
+            client.connect(host, port);
             client.login(user, pwd);
+            client.setFileType(FTP.ASCII_FILE_TYPE);
             FTPFile[] files = client.listFiles();
             FTPFile lastFile = getMaxLastModified(files);
             System.out.println(lastFile.getName());
