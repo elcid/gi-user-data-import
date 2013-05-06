@@ -23,7 +23,7 @@ public class Sftp{
         try{
             JSch jsch=new JSch();
 
-            String host=null;
+            String host;
             if(arg.length>0){
                 host=arg[0];
             }
@@ -143,11 +143,14 @@ public class Sftp{
                     if(cmd.equals("chmod")){
                         byte[] bar=((String)cmds.elementAt(1)).getBytes();
                         int k;
-                        for(int j=0; j<bar.length; j++){
-                            k=bar[j];
-                            if(k<'0'||k>'7'){foo=-1; break;}
-                            foo<<=3;
-                            foo|=(k-'0');
+                        for (byte aBar : bar) {
+                            k = aBar;
+                            if (k < '0' || k > '7') {
+                                foo = -1;
+                                break;
+                            }
+                            foo <<= 3;
+                            foo |= (k - '0');
                         }
                         if(foo==-1)continue;
                     }
@@ -206,8 +209,8 @@ public class Sftp{
                         }
                         if(file.isDirectory()){
                             String[] list=file.list();
-                            for(int ii=0; ii<list.length; ii++){
-                                out.println(list[ii]);
+                            for (String aList : list) {
+                                out.println(aList);
                             }
                             continue;
                         }
@@ -282,7 +285,7 @@ public class Sftp{
                 if(cmd.equals("readlink")){
                     if(cmds.size()!=2) continue;
                     String p1=(String)cmds.elementAt(1);
-                    String filename=null;
+                    String filename;
                     try{
                         filename=c.readlink(p1);
                         out.println(filename);
@@ -295,7 +298,7 @@ public class Sftp{
                 if(cmd.equals("realpath")){
                     if(cmds.size()!=2) continue;
                     String p1=(String)cmds.elementAt(1);
-                    String filename=null;
+                    String filename;
                     try{
                         filename=c.realpath(p1);
                         out.println(filename);
