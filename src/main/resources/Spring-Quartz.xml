@@ -7,7 +7,7 @@
 	<bean id="runMeTask" class="de.springerprofessional.gi.scheduling.RunMeTask" />
 
 	<!-- Spring Quartz -->
-	<bean name="runMeJob" class="org.springframework.scheduling.quartz.JobDetailBean">
+<!--	<bean name="runMeJob" class="org.springframework.scheduling.quartz.JobDetailBean">
 
 		<property name="jobClass" value="de.springerprofessional.gi.scheduling.RunMeJob" />
 
@@ -17,9 +17,9 @@
 			</map>
 		</property>
 
-	</bean>
+	</bean>-->
 
-	<!-- <bean id="runMeJob" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean"> 
+	<!-- <bean id="runMeJob" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
 		<property name="targetObject" ref="runMeTask" /> <property name="targetMethod" 
 		value="printMe" /> </bean> -->
 
@@ -52,6 +52,15 @@
 				<ref bean="simpleTrigger" />
 			</list>
 		</property>
+        <property name="applicationContextSchedulerContextKey" value="applicationContext"/>
 	</bean>
+
+    <bean id="runMeJob" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="exampleBusinessObject" />
+        <property name="targetMethod" value="main" />
+    </bean>
+
+    <bean id="exampleBusinessObject" class="de.springerprofessional.gi.parser.CSVParseDemo"/>
+
 
 </beans>
