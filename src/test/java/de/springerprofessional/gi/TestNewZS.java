@@ -86,10 +86,10 @@ public class TestNewZS extends AbstractImportNewData {
 		Map<String, String> newZSData = new HashMap<String, String>();
 		Iterator<String> it = record.iterator();
 
-		for (int i = 0; i < newZSVariables.size(); i++) {
-			if (it.hasNext())
-			newZSData.put(newZSVariables.get(i), it.next());
-		}
+        for (String newZSVariable : newZSVariables) {
+            if (it.hasNext())
+                newZSData.put(newZSVariable, it.next());
+        }
 		return newZSData;
 	}
 }
