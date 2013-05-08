@@ -1,8 +1,8 @@
-package de.springerprofessional.gi.parser;
+package de.springerprofessional.gi.example;
 
 
-import de.springerprofessional.gi.model.GIUser;
-import de.springerprofessional.gi.model.GIUserItem;
+import de.springerprofessional.gi.example.GIUser;
+import de.springerprofessional.gi.example.GIUserItem;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;

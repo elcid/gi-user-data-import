@@ -2,6 +2,7 @@ package de.springerprofessional.gi;
 
 import com.bsl.LoginOutput;
 import com.bsl.Subscriber;
+import de.springerprofessional.gi.model.Gender;
 import org.apache.commons.collections.MapUtils;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
@@ -78,7 +79,7 @@ public class TestNewUser extends AbstractImportNewData {
 			
 			
 			if (!user.getGender().equals(getGenderInODSFormat(newSubscriberData.get(ANREDE)))) {
-				System.out.println("NR: " + number + " - Anrede falsch: => CSV: " + getGenderInODSFormat(newSubscriberData.get(ANREDE)) + " - ODS: " + user.getGender() + newSubscriberData.get(EMAIL) + " - SID: " + subscriberId);
+				System.out.println("NR: " + number + " - Anrede falsch: => CSV: " + Gender.valueOf(ANREDE) + " - ODS: " + user.getGender() + newSubscriberData.get(EMAIL) + " - SID: " + subscriberId);
 			}
 
 

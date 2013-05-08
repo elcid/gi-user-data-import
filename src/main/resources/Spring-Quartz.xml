@@ -60,7 +60,7 @@
         <property name="targetMethod" value="main" />
     </bean>
 
-    <bean id="exampleBusinessObject" class="de.springerprofessional.gi.parser.CSVParseDemo"/>
+    <bean id="exampleBusinessObject" class="de.springerprofessional.gi.example.CSVParseDemo"/>
 
 
 </beans>

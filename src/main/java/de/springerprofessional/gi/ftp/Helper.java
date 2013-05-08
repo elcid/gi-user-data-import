@@ -18,7 +18,7 @@ public class Helper {
     public  static String remoteFileDirectory= "Daten";
     private static String fileType = "*csv";
     private static String pattern = "ddMMyyyy";
-    private static DateTime cleanupCutoffdate;
+    private static DateTime cleanupCutoffdate = DateTime.now();
 
     private static DateTime parseDateFromFileName(String fileName) {
         Date date = null;

@@ -1,4 +1,4 @@
-package de.springerprofessional.gi.model;
+package de.springerprofessional.gi.example;
 
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;

@@ -1,4 +1,4 @@
-package de.springerprofessional.gi.ftp;
+package de.springerprofessional.gi.example;
 
 /* -*-mode:java; c-basic-offset:2; indent-tabs-mode:nil -*- */
 /**
