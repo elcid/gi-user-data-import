@@ -108,10 +108,10 @@ public class TestNewUser extends AbstractImportNewData {
 		Map<String, String> newSubscriberData = new HashMap<String, String>();
 		Iterator<String> it = record.iterator();
 
-		for (int i = 0; i < newSubscriberVariables.size(); i++) {
-			if (it.hasNext())
-			newSubscriberData.put(newSubscriberVariables.get(i), it.next());
-		}
+        for (String newSubscriberVariable : newSubscriberVariables) {
+            if (it.hasNext())
+                newSubscriberData.put(newSubscriberVariable, it.next());
+        }
 		return newSubscriberData;
 	}
 }
